@@ -1,6 +1,9 @@
 # Card Game
 
-This is a simple card game in which you reveal two cards by clicking on them. If they're a match, you gain a point and they remain flipped. Otherwise, the cards are automatically flipped back.
+This is a simple card game, in which win by trying to match all the cards, while trying to get as much points as you can. When flipping two cards, if they're a match, you gain a point and they remain flipped. Otherwise, the cards are automatically flipped back. There is a single player and two player mode.
+
+### NOTE!
+If you chose mistmatching cards, wait for them to flip back before clicking additional cards. Also, the "All" option is a little buggy.
 
 ## Getting Started
 
