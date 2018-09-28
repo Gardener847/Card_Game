@@ -16,7 +16,6 @@ choco install meteor
 ```
 
 Once installed, git pull, or download, this project and navigate to where you it was downloaded. Then, run the following command:
-
 ```
 meteor
 ```
@@ -24,6 +23,7 @@ or
 ```
 meteor run
 ```
+You can then view the app by going to your localhost:3000
 
 ### OSX / Linux Setup
 
@@ -42,3 +42,4 @@ or
 ```
 meteor run
 ```
+You can then view the app by going to your localhost:3000
