@@ -1,0 +1,183 @@
+%fonts {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+%maxWiHi {
+    height: 100%;
+    width: 100%;
+}
+
+%transform {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+%transform3d {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+%small {
+    width: 8.5rem;    
+    height: 9.5rem;
+}
+
+%medium {
+    width: 5.8rem;
+    height: 6.8rem;
+}
+
+%hard {
+    width: 4.4rem; 
+    height: 5.4rem;
+}
+
+.btn--spacing__Home {
+    border: none;
+    outline-style: none;
+    margin: 0 2rem .5rem;
+}
+
+.card {
+    @extend %maxWiHi;
+    @extend %transform3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+
+.card div {
+    position: absolute;
+    @extend %maxWiHi;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-label__Home-s {
+    @extend %transform3d;
+    @extend %small;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-label__Home-m {
+    @extend %transform3d;
+    @extend %medium;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-label__Home-h {
+    @extend %transform3d;
+    @extend %hard;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card .back-s {
+    @extend %transform;
+    @extend %small;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 3rem;
+    line-height: 3;
+}
+
+.card .back-m {
+    @extend %transform;
+    @extend %medium;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 2.75rem;
+    line-height: 2.15;
+}
+
+.card .back-h {
+    @extend %transform;
+    @extend %hard;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+.img--size__Home-s {
+    @extend %small;
+}
+
+.img--size__Home-m {
+    @extend %medium;
+}
+
+.img--size__Home-h {
+    @extend %hard;
+}
+
+.card-input__Home {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .card {
+    @extend %transform;
+}
+
+input[type="checkbox"]:disabled + .card {
+    cursor: default;
+}
+
+.container__Home {
+    margin: auto;
+    padding: 15px 2% 0px;
+    width: auto;
+    text-align: center;
+}
+
+.div--spacing__Home {
+    margin: .25rem 0 2rem;
+}
+
+.card-view--size {
+    width: 700px;       //easy
+    margin: auto;
+}
+
+.text-jumboHeader__Home {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.text-SubHeader__Home {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.text-labels-heading__Home {
+    @extend %fonts;
+    margin-top: 2.25rem;
+}
+
+.text-labels-buttons__Home {
+    @extend %fonts;
+    margin-top: 1rem;
+}
+
+.score-labels__Home {
+    @extend %fonts;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.span-score__Home {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 1rem 1rem 0 4rem;
+}
+
+.span-card--spacing__Home {
+    margin: 0 1rem;
+}
