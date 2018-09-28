@@ -6,7 +6,7 @@ This is a simple card game in which you reveal two cards by clicking on them. If
 
 ### Winodws Setup
 
-Install [chocolatey] (https://chocolatey.org/install). Then, open a command prompt as an Admin and run the following command:
+Install [chocolatey](https://chocolatey.org/install). Then, open a command prompt as an Admin and run the following command:
 
 ```
 choco install meteor
